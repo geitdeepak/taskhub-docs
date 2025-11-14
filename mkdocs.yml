@@ -1,0 +1,32 @@
+site_name: Task-Hub Documentation
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: 'blue'
+      accent: 'light blue'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: 'pink'
+      accent: 'light pink'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - About Task-HUb:
+    - Overview: ./About Task-HUb/overview.md
+    - Features: ./About Task-HUb/features.md
+
+  - Installation: installation.md
+  - Usage: usage.md
+  - Getting Started: getting-started.md
+  - Support:
+    - FAQ: ./Support/faq.md
+    - Contact: ./Support/contact.md
+ 
